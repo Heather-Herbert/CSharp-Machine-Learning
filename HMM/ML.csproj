@@ -40,8 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chi-squared.cs" />
+    <Compile Include="Exceptions\invalidMatrixException.cs" />
+    <Compile Include="Linear_Regression.cs" />
     <Compile Include="Markov_Chains.cs" />
     <Compile Include="Models\Chain.cs" />
+    <Compile Include="Models\Chi_squared_data_row.cs" />
+    <Compile Include="Models\Chi_squared_footer.cs" />
+    <Compile Include="NLP\PorterStemmer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
